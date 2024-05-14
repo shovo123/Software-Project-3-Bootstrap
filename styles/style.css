@@ -1,0 +1,54 @@
+.ls-banner {
+    background: url('../images/banner.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.ls-slider {
+    background: url('../images/banner.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ls-btn-primary,
+.ls-btn-primary:hover {
+    background-color: #B68C5A;
+    color: #fff;
+}
+
+.ls-input-text {
+    width: 300px;
+}
+
+.ls-text-primary {
+    color: #B68C5A;
+}
+
+.accordion-item {
+    border: 1px solid #dedede !important;
+    border-radius: 8px !important;
+    margin: 20px 0 !important;
+}
+
+.accordion-button {
+    border-radius: 8px !important;
+    background: #dedede !important;
+}
+
+@media screen and (max-width:577px) {
+    .w-50,
+    .w-75 {
+        width: 90% !important
+    }
+    .p-5 {
+        padding: 20px !important
+    }
+}
